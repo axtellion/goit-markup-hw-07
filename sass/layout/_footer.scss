@@ -4,54 +4,28 @@
   padding-bottom: 60px;
 }
 
-.footer-link {
-  font-family: Raleway;
-  font-weight: 700px;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
+.footer__wrap {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__link {
   margin-bottom: 20px;
   display: inline-block;
-}
-
-.adres-item {
-  margin-bottom: 9px;
-}
-
-.adres-item:last-child {
-  margin-bottom: 0;
-}
-
-.adres-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--third-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
+  span {
+    color: #ffffff;
   }
 }
 
-.adres-date {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--accent-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
+.footer__adres {
+  margin-right: 70px;
 }
 
 .footer-social {
   margin-right: 93px;
 }
 
-.social-title {
+.footer-social__title {
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14;
@@ -61,82 +35,9 @@
   margin-bottom: 20px;
 }
 
-.wrap {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-adres {
-  margin-right: 70px;
-}
-
-.social-list {
-  display: flex;
-}
-
-.social-item {
-  margin-right: 10px;
-}
-
-.social-link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 50%;
+.footer-social--color {
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
+  svg {
+    fill: #ffffff;
   }
-}
-
-.social-icon {
-  display: flex;
-  width: 20px;
-  height: 20px;
-  fill: var(--third-text-color);
-}
-
-.mailing-mail {
-  width: 358px;
-  height: 50px;
-  margin-right: 12px;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding-left: 16px;
-  color: var(--third-text-color);
-  outline: none;
-  &::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
-  }
-  &:focus,
-  &:hover {
-    border-color: var(--accent-color);
-  }
-}
-
-.mailing-btn {
-  padding-left: 29px;
-}
-
-.mailing-picture {
-  margin-left: 10px;
-  fill: #ffffff;
-}
-
-.btn-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
