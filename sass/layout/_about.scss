@@ -1,18 +1,4 @@
-.about__section {
-  padding-top: 0;
-}
-
-.about__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.about__list {
+.about {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
